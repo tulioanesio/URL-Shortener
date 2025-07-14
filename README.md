@@ -30,14 +30,11 @@ Create a `.env` file and add your PostgreSQL connection string:
 
 ```env
 DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
-POSTGRES_USER: "your_postgres_user"
-POSTGRES_PASSWORD: "your_postgres_password"
-POSTGRES_DB: "your_postgres_database"
 ```
 
 4. **Run database migrations**:
 ```
-npx prisma migrate dev --name init
+npx prisma migrate dev 
 ```
 
 5. **Start the development server**:
